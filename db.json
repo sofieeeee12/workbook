@@ -1,0 +1,74 @@
+{
+    "users": [
+      {
+        "firstName": "Chaunce",
+        "lastName": "Ca",
+        "emailAddress": "cca2@spotify.com",
+        "eid": "45678913",
+        "birthDate": "5/9/1989"
+      },
+      {
+        "firstName": "Noach",
+        "lastName": "Philpault",
+        "emailAddress": "nphilpault3@plala.or.jp",
+        "eid": "78771256",
+        "birthDate": "12/6/1991"
+      },
+      {
+        "firstName": "Deena",
+        "lastName": "Crocker",
+        "emailAddress": "dcrocker4@cdbaby.com",
+        "eid": "83232561",
+        "birthDate": "11/10/1995"
+      },
+      {
+        "firstName": "Averell",
+        "lastName": "Swayland",
+        "emailAddress": "aswayland6@cpanel.net",
+        "eid": "28783948",
+        "birthDate": "3/29/1987"
+      },
+      {
+        "firstName": "Bevin",
+        "lastName": "Bye",
+        "emailAddress": "bbye7@usda.gov",
+        "eid": "6357665",
+        "birthDate": "8/16/1992"
+      },
+      {
+        "firstName": "Clemmy",
+        "lastName": "Goater",
+        "emailAddress": "cgoater8@ask.com",
+        "eid": "8473433",
+        "birthDate": "12/6/1998"
+      },
+      {
+        "firstName": "Perkin Padden",
+        "lastName": "Padden",
+        "emailAddress": "ppadden9@cpanel.net",
+        "eid": "9497738",
+        "birthDate": "2/13/1986"
+      },
+      {
+        "firstName": "Rachael",
+        "lastName": "Dukes",
+        "emailAddress": "rdukesa@theguardian.com",
+        "eid": "3957406",
+        "birthDate": "9/6/2000"
+      },
+      {
+        "firstName": "Olwen",
+        "lastName": "Fairhead",
+        "emailAddress": "ofairheadb@house.gov",
+        "eid": "82349318",
+        "birthDate": "9/13/2001"
+      },
+      {
+        "firstName": "Simone",
+        "lastName": "Baly",
+        "emailAddress": "sbalyc@g.co",
+        "eid": "49142925",
+        "birthDate": "1/10/1996"
+      }
+    ]
+  }
