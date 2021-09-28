@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Navbar from "./Navbar";
 import axios from "axios";
+import '../App.css'
 
 const ViewUser = () => {
 
@@ -17,7 +18,7 @@ const ViewUser = () => {
     <div>
       <Navbar/>
       <div className="container">
-        <div className="py-4">
+        <div className="content">
           <h2>Other Users</h2>
           <table className="table border shadow">
             <thead className="thead-dark-bg">
@@ -29,8 +30,8 @@ const ViewUser = () => {
                 <th scope="col">Birth Date</th>
               </tr>
             </thead>
-            <tbody>
-              {users.map((user, index) => (
+            <tbody className='list'>
+              {users.map((user) => (
                 <tr>
                   <th scope="row">{user.firstName}</th>
                   <td>{user.lastName}</td>

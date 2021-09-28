@@ -12,4 +12,38 @@
     min-height: 100%;
     background-size: cover;
     background-position: center;
+    text-decoration: blue;
    }
+.container {
+    background-image: url('./images/fbg.JPG');
+    min-width: 100%;
+    min-height: 100%;
+    background-position: center;
+    background-color: darkgreen;
+}
+.text{
+    color:darkgreen;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.title{
+    color:lightseagreen;
+    text-align: center;
+}
+.form-group{
+    color:lightseagreen;
+}
+.btn{
+    color: darkgreen;
+    background-color: lightseagreen;
+}
+.content{
+    color: #fff;
+}
+.thead-dark-bg{
+    color: #fff;
+}
+.list{
+    color:#fff;
+}

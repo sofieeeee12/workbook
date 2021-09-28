@@ -3,8 +3,11 @@ import '../App.css';
 
 const Home = () =>{
     return(
-        <div>
-         <h1 className='home'></h1>
+        <div className='home'>
+       <p className="text">
+          Start being productive today with <br/>
+          Workbox
+        </p>
         </div>
     );
 }

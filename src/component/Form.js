@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Navbar from "./Navbar";
 import axios from 'axios'
 import { useHistory } from "react-router-dom";
+import '../App.css'
 
 const Form = () => {
   let history = useHistory();
@@ -50,14 +51,14 @@ const Form = () => {
       console.log('submit')
       alert('New user has been added.');
       axios.post("http://localhost:3003/users", user);
-      history.push("/");
+      history.push("viewuser");
     }
   };
   return (
     <div><Navbar/>
     <div className="container">
       <div className="w-50 mx-auto shadow p-5">
-        <h1 className="text-center mb-4">Workbox Signup</h1>
+        <h1 className="title">Workbox Signup</h1>
         <form onSubmit={onSubmit}>
           <div className="form-group">
           <label>First Name</label>
@@ -119,7 +120,7 @@ const Form = () => {
               required
             />
           </div>
-          <button className="btn btn-dark btn-block">Submit</button>
+          <button className="btn">Submit</button>
         </form>
       </div>
     </div>
